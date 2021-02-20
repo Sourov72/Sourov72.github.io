@@ -1,3 +1,40 @@
+window.addEventListener("popstate", detecthistory);
+
+    function mynavbar1(){
+
+        window.history.pushState({id:1}, null, "index.html");
+    }
+    function mynavbar2(){
+
+        window.history.pushState({id:2}, null, "index.html");
+    }
+    function mynavbar3(){
+
+        window.history.pushState({id:3}, null, "index.html");
+    }
+    function mynavbar4(){
+
+        window.history.pushState({id:4}, null, "index.html");
+    }
+    function mynavbar5(){
+
+        window.history.pushState({id:5}, null, "index.html");
+    }
+    function mynavbar6(){
+
+        window.history.pushState({id:6}, null, "index.html");
+    }
+    function mynavbar7(){
+
+        window.history.pushState({id:7}, null, "index.html");
+    }
+
+    function detecthistory(){
+        
+    }
+
+
+
 const menu = document.querySelector(".menu")
 const navOpen = document.querySelector(".hamburger")
 const navClose = document.querySelector(".close")
@@ -145,3 +182,8 @@ if(glide)
 
 
     AOS.init();
+
+
+
+
+    
