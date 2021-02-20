@@ -773,6 +773,10 @@ a.btn:active{
        z-index: 1;
        margin-bottom: 3rem;
    }
+   .skills-box h4{
+       font-size: 1.5rem;
+   }
+   
 }
 
 
