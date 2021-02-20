@@ -2,31 +2,31 @@ window.addEventListener("popstate", detecthistory);
 
     function mynavbar1(){
 
-        window.history.pushState({id:1}, null, "index.html");
+        window.history.pushState({id:1}, null, "#home");
     }
     function mynavbar2(){
 
-        window.history.pushState({id:2}, null, "index.html");
+        window.history.pushState({id:2}, null, "#about");
     }
     function mynavbar3(){
 
-        window.history.pushState({id:3}, null, "index.html");
+        window.history.pushState({id:3}, null, "#education");
     }
     function mynavbar4(){
 
-        window.history.pushState({id:4}, null, "index.html");
+        window.history.pushState({id:4}, null, "#skills");
     }
     function mynavbar5(){
 
-        window.history.pushState({id:5}, null, "index.html");
+        window.history.pushState({id:5}, null, "#projects");
     }
     function mynavbar6(){
 
-        window.history.pushState({id:6}, null, "index.html");
+        window.history.pushState({id:6}, null, "#hobby");
     }
     function mynavbar7(){
 
-        window.history.pushState({id:7}, null, "index.html");
+        window.history.pushState({id:7}, null, "#contact");
     }
 
     function detecthistory(){
