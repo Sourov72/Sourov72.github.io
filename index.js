@@ -131,9 +131,14 @@ if(glide)
         breakpoints: {
             996: {
                 perView: 2,
+                autoplay: 4000,
+                animationDuration: 1300, 
+
             },
             768: {
                 perView: 1,
+                autoplay: 4000,
+                animationDuration: 1300, 
             },
         },
     }).mount();

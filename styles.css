@@ -320,19 +320,18 @@ li
     font-size: 2rem;
     cursor: pointer;
     transition: all 300ms ease-in-out;
+    
 }
 
 .icons a span{
     font-family: 'Raleway', sans-serif;
     font-size:14px;
     bottom: 0;
-    line-height: 38px;
-    overflow: hidden;
     padding: 0;
+    overflow: hidden;
     position: absolute;
-    white-space: nowrap;
     width: 0;
-   
+    
 }
 
 .icons a:hover{
@@ -341,9 +340,23 @@ li
 
 .icons a:hover span{
     
-    width:auto; 
-    top: 2rem;
-    overflow:visible;
+    width: auto; 
+    top: 3rem;
+    overflow: visible;
+    
+}
+
+.icons a:hover .f{
+    right: 7rem;
+}
+.icons a:hover .i{
+    right: 4.5rem;
+}
+.icons a:hover .l{
+    right: 2rem;
+}
+.icons a:hover .g{
+    right: -0.7rem;
 }
 
 @media only screen and (max-width: 567px){
@@ -617,23 +630,23 @@ a.btn:active{
 
 
 .skills-box .html{
-    width: 95%;
-}
-
-.skills-box .css{
-    width: 95%;
-}
-
-.skills-box .javascript{
-    width: 85%;
-}
-
-.skills-box .nodejs{
     width: 80%;
 }
 
+.skills-box .css{
+    width: 60%;
+}
+
+.skills-box .javascript{
+    width: 70%;
+}
+
+.skills-box .nodejs{
+    width: 75%;
+}
+
 .skills-box .mongobd{
-    width: 95%;
+    width: 80%;
 }
 
 .skills-box span{
@@ -664,14 +677,13 @@ a.btn:active{
 
  .skills-right li{
     list-style-type: square;
-    color: #ccc;
     font-size: 1.8rem;
     color: #888;
     font-weight: 500;
  }
  .skills-down li{
     list-style-type: square;
-    color: #ccc;
+
     font-size: 1.8rem;
     color: #888;
     margin-bottom: 0.6rem;
@@ -686,6 +698,19 @@ a.btn:active{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+}
+
+
+.skills-right-container span:hover, .skills-down span:hover, .skills-box:hover{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.9rem;
+} 
+
+.skills-box:hover h4{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.9rem;
 }
 
  
@@ -750,15 +775,27 @@ a.btn:active{
    }
 }
 
+
+
+/* .service{
+    color: #fff;
+    background-color: #111;
+    padding: 2rem;
+    text-align: left;
+    border-radius: 1rem;
+    transition: all 300ms ease-in-out;
+} */
+
  /* Teams */
 .team{
     color: #fff;
     background-color: #111;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     border-radius: 1rem;
     border-bottom: 4px solid transparent;
     transition: all 300ms ease-in-out;
+    height: 55rem;
 }
 
 .team .img-cover{
@@ -931,6 +968,19 @@ a.btn:active{
     width:auto; 
     top: 6.2rem;
     overflow:visible;
+}
+
+.rightt a:hover .f{
+    left: 5rem;
+}
+.rightt a:hover .i{
+    left: 6.5rem;
+}
+.rightt a:hover .l{
+    left: 10.2rem;
+}
+.rightt a:hover .g{
+    left: 13.9rem;
 }
 
 .form h2{
