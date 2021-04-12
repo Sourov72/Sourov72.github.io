@@ -105,6 +105,41 @@ li
 
 }
 
+
+/* new change made here */
+/* @media only screen and (max-height: 567px){
+    .header{
+        min-height: 100vh;
+    }
+
+    .header img{
+        width: 40rem;
+    }
+
+}
+
+@media only screen and (max-height: 452px){
+    .header{
+        min-height: 100vh;
+    }
+
+    .header img{
+        width: 35rem;
+    }
+
+}
+@media only screen and (max-height: 439px){
+    .header{
+        min-height: 100vh;
+    }
+
+    .header img{
+        width: 28rem;
+    }
+
+} */
+
+
 .nav{
     padding: 1.6rem 0;
     color: #fff;
