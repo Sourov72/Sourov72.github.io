@@ -102,7 +102,7 @@ new TypeIt("#type1",  {
     loop: true, 
     waitUntilVisible: true,
 })
-.type("an Undergraduate", {delay: 400})
+.type("a Graduate Student", {delay: 400})
 .pause(500)
 .delete(16)
 .type("a CSE Student", {delay: 400})
